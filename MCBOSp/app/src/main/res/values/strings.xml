@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">MCBOSp</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="accountnumber">Account Number</string>
+
+    <string name="customernumber">Customer Number</string>
+    <string name="accountholder">Account Holder</string>
+    <string name="bankname">Bank Name</string>
+
+    <string name="branchname">Branch Name</string>
+    <string name="branchaddress">Branch Address</string>
+
+
+
+    <string name="IFSC">IFSC</string>
+    <string name="MICR">MICR</string>
+    <string name="currentbalance">Current Balance</string>
+
+    <string name="remarks">Remarks</string>
+    <string name="AddAccount">AddAccount</string>
+    <string name="accountsprompt">Select Account</string>
+
+    <string name="Type">Type</string>
+    <string name="deposit">Deposit</string>
+    <string name="withdraw">Withdraw</string>
+
+    <string name="date">Date</string>
+    <string name="sysdate">SysDate</string>
+    <string name="datepicker">DatePicker</string>
+
+    <string name="amount">Amount</string>
+    <string name="ChequeNo">ChequeNo</string>
+    <string name="chequeparty">ChequeParty</string>
+
+    <string name="chequedetails">ChequeDetails</string>
+    <string name="Remarks">Remarks</string>
+    <string name="addtransaction">AddTransaction</string>
+
+
+
+    <string name="tap">Tap on the account to get details!</string>
+    <string name="user">User</string>
+
+    <string name="recenttransactions">Recent Transactions</string>
+
+    <string name="trans">Trans Date</string>
+    <string name="detai">Detaifdsfsdf dsafsdfsdf sdf fdsaf safdsafdsls</string>
+
+    <string name="type">Type</string>
+    <string name="hunder">_</string>
+    <string name="balance">Balance</string>
+    <string name="heading">heading</string>
+
+    <string name="Date">Date</string>
+    <string name="Details">Details</string>
+    <string name="Amount">Amount</string>
+
+    <string name="sorry"> Sorry! No Transaction Found!</string>
+    <string name="fromdate">FromDate</string>
+    <string name="todate">ToDate</string>
+
+    <string name="Fromamount">Fromamount</string>
+    <string name="Toamount">Toamount</string>
+    <string name="Search">Search</string>
+
+    <string name="Clear">Clear</string>
+    <string name="Delete">Delete</string>
+    <string name="Accountdetails">AccountDetails</string>
+
+
+
+    <string name="Accountnumber">AccountNumber</string>
+    <string name="Transdate">TransDate</string>
+    <string name="Transtype">TransType</string>
+
+    <string name="ChequeParty">ChequeParty</string>
+    <string name="ChequeDetails">ChequeDetails</string>
+    <string name="AccountNo">AccountNo</string>
+    <string name="acno">Account Number</string>
+    <string name="Tdate">TransactionDate</string>
+    <string name="transdate">TransDate</string>
+
+    <string name="Transdetails">TransDetails</string>
+    <string name="details">Details</string>
+    <string name="TransType">TransType</string>
+
+    <string name="TransAmount">TransAmount</string>
+    <string name="Update">Update</string>
+    <string name="Transactions">Transactions</string>
+
+    <string name="CustomerNumber">CustomerNumber</string>
+    <string name="Applyloan">Apply Loan</string>
+    <string name="showLoanPayments">Show LoanPayments</string>
+
+    <string name="CustomerName">Customer Name:&#160;&#160;</string>
+
+
+
+    <string name="loan_amount_prompt">Loan Amount:&#160;&#160;</string>
+    <string name="interest_rate_prompt">Interest Rate:&#160;&#160;</string>
+
+    <string name="loan_period_prompt">Months:&#160;&#160;</string>
+    <string name="loan_button_text">Calculate Payments</string>
+
+    <string name="monthly_payment_prompt">Monthly Payment:&#160;&#160;</string>
+    <string name="total_payments_prompt">Total Payments:&#160;&#160;</string>
+
+
+
+    <string name="view">View Payment Details</string>
+
+    <string name="loanPayments">LoanPayments Details</string>
+
+    <string name="username">User Name:</string>
+    <string name="AddLogin">Login Account</string>
+
+    <string name="pass">Password:</string>
+    <string name="login">Login</string>
+    <string name="mailid">EmailID:</string>
+
+    <string name="contactno">Contact No:</string>
+    <string name="submit">Submit</string>
+    <string name="reg">Register Here</string>
+
+    <string name="textview">Text View</string>
+    <string name="notification">Notification</string>
+
+    <string name="info">You Have one Notification, press the button Notification to add a notification.</string>
+
+
+    <string name="btn_default_notification_text">Show Notification</string>
+
+
+<string name="notification_string">You should  able to enter repayment made by the customer (in installments or in full).
+.It should give notification when a loan has not been returned within the loan period. The credit worthiness of the customer should be updated as ‘defaulter’.
+    </string>
+
+    <string name="about">About</string>
+    <string name="title">Title : </string>
+    <string name="menu_delete">Delete Item</string>
+    <string name="no_title">No Title</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="save_menu_noteedit">Save</string>
+    <string name="delete_menu_noteedit">Delete</string>
+    <string name="feedback">FeedBack Form</string>
+    <string name="sendmail">Send Mail</string>
+
+</resources>

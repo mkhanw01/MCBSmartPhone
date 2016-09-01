@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <TableRow >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fromdate"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:id="@+id/editFromDate"
+                android:layout_width="120dip"
+                android:layout_height="wrap_content"
+                android:inputType="date" >
+
+                <requestFocus />
+            </EditText>
+
+            <Button
+                android:id="@+id/buttonFromDateDialog"
+                android:layout_marginLeft="5dp"
+                android:onClick="showFromDateDialog"
+                />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/todate"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:id="@+id/editToDate"
+                android:layout_width="120dip"
+                android:layout_height="wrap_content"
+                android:inputType="date" />
+
+            <Button
+                android:id="@+id/buttonToDateDialog"
+                android:layout_marginLeft="5dp"
+                android:onClick="showToDateDialog"
+
+                />
+        </TableRow>
+
+        <TableRow >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Fromamount"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:id="@+id/editFromAmount"
+                android:layout_width="120dip"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Toamount"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:id="@+id/editToAmount"
+                android:layout_width="120dip"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal" />
+        </TableRow>
+    </TableLayout>
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:onClick="searchTransactions"
+            android:text="@string/Search" >
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:onClick="clearFields"
+            android:text="@string/Clear" />
+
+    </LinearLayout>
+
+</LinearLayout>
